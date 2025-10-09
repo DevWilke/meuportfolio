@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-BR" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilke Rodrigues - Desenvolvedor Frontend | Portfólio</title>
+    <meta name="description" content="Desenvolvedor frontend especializado em landing pages, blogs, portfólios e sites institucionais. Confira meus projetos e parcerias.">
+    <meta name="keywords" content="desenvolvedor frontend, landing pages, blogs, portfólios, sites institucionais, HTML5, CSS3, JavaScript, Tailwind">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-gray-300">
+    <header class="fixed top-0 w-full bg-black/30 backdrop-blur-md z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 rounded-xl overflow-hidden shadow-lg">
+                        <img src="fundo/logo.png" alt="Logo Wilke Rodrigues" class="w-full h-full object-cover" />
+                    </div>
+                    <span class="text-2xl font-bold gradient-text">wr.code</span>
+                </div>
+                <div class="hidden md:flex space-x-8 text-white">
+                    <a href="#home" class="nav-link hover:text-purple-400">Início</a>
+                    <a href="#about" class="nav-link hover:text-purple-400">Sobre</a>
+                    <a href="#projects" class="nav-link hover:text-purple-400">Projetos</a>
+                    <a href="#partnerships" class="nav-link hover:text-purple-400">Parcerias</a>
+                    <a href="#contact" class="nav-link hover:text-purple-400">Contato</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2 text-white">
+                <a href="#home" class="block py-2 hover:text-purple-400">Início</a>
+                <a href="#about" class="block py-2 hover:text-purple-400">Sobre</a>
+                <a href="#projects" class="block py-2 hover:text-purple-400">Projetos</a>
+                <a href="#partnerships" class="block py-2 hover:text-purple-400">Parcerias</a>
+                <a href="#contact" class="block py-2 hover:text-purple-400">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20">
+        <div class="container mx-auto px-6 text-center">
+            <div class="animate-fade-in-up">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 text-white">
+                    Desenvolvedor <span class="gradient-text">Frontend</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-400 mb-8 max-w-3xl mx-auto">
+                    Especializado em criar experiências digitais incríveis através de landing pages, blogs, portfólios e sites institucionais
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#projects" class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105">
+                        Ver Projetos
+                    </a>
+                    <a href="#contact" class="border-2 border-gray-600 text-gray-300 px-8 py-4 rounded-full font-semibold hover:border-purple-500 hover:text-purple-500 transition-all duration-300">
+                        Entre em Contato
+                    </a>
+                </div>
+            </div>
+            <div class="mt-16 animate-float">
+                <svg class="w-32 h-32 mx-auto text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zm0 4a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1V8zm8 0a1 1 0 011-1h4a1 1 0 011 1v2a1 1 0 01-1 1h-4a1 1 0 01-1-1V8zm0 4a1 1 0 011-1h4a1 1 0 011 1v2a1 1 0 01-1 1h-4a1 1 0 01-1-1v-2z" clip-rule="evenodd"></path>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 section-hidden">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 gradient-text">Minha Especialidade</h3>
+                    <p class="text-gray-400 mb-6 leading-relaxed">
+                        Como desenvoledor frontend, me especializei em criar soluções web que não apenas impressionam visualmente, mas também oferecem uma experiência de usuário excepcional. Cada projeto é desenvolvido com atenção aos detalhes e foco na performance.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="text-center p-4 bg-gray-900/50 border border-gray-800 rounded-lg shadow-sm">
+                            <div class="text-3xl font-bold text-purple-500">50+</div>
+                            <div class="text-gray-400">Projetos</div>
+                        </div>
+                        <div class="text-center p-4 bg-gray-900/50 border border-gray-800 rounded-lg shadow-sm">
+                            <div class="text-3xl font-bold text-purple-500">3+</div>
+                            <div class="text-gray-400">Anos</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 text-white">Tecnologias</h3>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                        <span class="tech-badge">HTML5</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Tailwind</span>
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Vue.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 section-hidden">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 gradient-title">Projetos Reais</h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                    Alguns dos meus trabalhos mais recentes e impactantes
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+                <div class="card-hover bg-gray-900/70 border border-gray-800 rounded-xl shadow-lg overflow-hidden">
+                    <div class="h-48">
+                        <img src="imagens/01barberhori.png" alt="Projeto Landing Pages" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4 md:p-6">
+                        <h3 class="text-xl font-bold mb-3 text-white">Landing Pages</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Páginas de conversão otimizadas para resultados.</p>
+                        <button 
+                            onclick="openModal('landing-pages')" 
+                            class="w-full py-2 px-4 rounded-lg backdrop-blur-md bg-white/10 text-white border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300 shadow-md hover:shadow-xl"
+                            >
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-900/70 border border-gray-800 rounded-xl shadow-lg overflow-hidden">
+                    <div class="h-48">
+                        <img src="imagens/01clinica.png" alt="Projeto Sites Institucionais" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4 md:p-6">
+                        <h3 class="text-xl font-bold mb-3 text-white">Sites Institucionais</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Websites que transmitem credibilidade e fortalecem a marca.</p>
+                        <button 
+                            onclick="openModal('sites-institucionais')" 
+                            class="w-full py-2 px-4 rounded-lg backdrop-blur-md bg-white/10 text-white border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300 shadow-md hover:shadow-xl"
+                            >
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-900/70 border border-gray-800 rounded-xl shadow-lg overflow-hidden">
+                    <div class="h-48">
+                        <img src="imagens/01potffolio.png" alt="Projeto Portfólios" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4 md:p-6">
+                        <h3 class="text-xl font-bold mb-3 text-white">Sites Portfólios</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Portfólios que destacam trabalhos de forma impactante.</p>
+                        <button 
+                            onclick="openModal('portfolios')" 
+                            class="w-full py-2 px-4 rounded-lg backdrop-blur-md bg-white/10 text-white border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300 shadow-md hover:shadow-xl"
+                            >
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-900/70 border border-gray-800 rounded-xl shadow-lg overflow-hidden">
+                    <div class="h-48">
+                        <img src="imagens/01BLOG.png" alt="Projeto Blogs" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4 md:p-6">
+                        <h3 class="text-xl font-bold mb-3 text-white">Blogs</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Plataformas de conteúdo otimizadas para SEO e design moderno.</p>
+                        <button 
+                            onclick="openModal('blogs')" 
+                            class="w-full py-2 px-4 rounded-lg backdrop-blur-md bg-white/10 text-white border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300 shadow-md hover:shadow-xl"
+                            >
+                            Ver detalhes
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partnerships" class="py-20 section-hidden">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 gradient-title">Parcerias Estratégicas</h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">Colaborações estratégicas que potencializam resultados</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 max-w-7xl mx-auto">
+                <div class="card-hover bg-gray-900/70 border border-gray-800 p-6 rounded-xl shadow-lg text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6"><svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg></div>
+                    <h3 class="text-xl font-bold mb-3 text-white">Fotógrafo Profissional</h3>
+                    <p class="text-gray-400 text-sm">Parceria para criação de conteúdo visual de alta qualidade para websites e campanhas digitais.</p>
+                </div>
+                 <div class="card-hover bg-gray-900/70 border border-gray-800 p-6 rounded-xl shadow-lg text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6"><svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20"><path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"></path></svg></div>
+                    <h3 class="text-xl font-bold mb-3 text-white">Especialista em Tráfego Pago</h3>
+                    <p class="text-gray-400 text-sm">Colaboração em campanhas de marketing digital e otimização de landing pages para conversão.</p>
+                </div>
+                <div class="card-hover bg-gray-900/70 border border-gray-800 p-6 rounded-xl shadow-lg text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-6"><svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20"><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path></svg></div>
+                    <h3 class="text-xl font-bold mb-3 text-white">Editor de Imagens e Vídeos</h3>
+                    <p class="text-gray-400 text-sm">Parceria para criação de conteúdo audiovisual profissional e edição de materiais promocionais.</p>
+                </div>
+                <div class="card-hover bg-gray-900/70 border border-gray-800 p-6 rounded-xl shadow-lg text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-orange-500 to-red-600 rounded-full flex items-center justify-center mx-auto mb-6"><svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 13V5a2 2 0 00-2-2H4a2 2 0 00-2 2v8a2 2 0 002 2h3l3 3 3-3h3a2 2 0 002-2zM5 7a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1zm1 3a1 1 0 100 2h3a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg></div>
+                    <h3 class="text-xl font-bold mb-3 text-white">Social Media</h3>
+                    <p class="text-gray-400 text-sm">Colaboração em estratégias de redes sociais e criação de conteúdo para engajamento digital.</p>
+                </div>
+            </div>
+        </div>
+    <div class="text-center mt-16">
+        <a href="https://wa.me/5579991353409" class="inline-block border-2 border-gray-600 text-gray-300 px-8 py-4 rounded-full font-semibold hover:border-purple-500 hover:text-purple-500 transition-all duration-300">
+            Contratar Parceria
+        </a>
+    </div>
+    </section>
+
+    <section id="contact" class="py-20 section-hidden">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 gradient-title">Vamos Conversar?</h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">Pronto para transformar sua ideia em realidade digital? Entre em contato!</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-4xl mx-auto">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 text-white">Informações de Contato</h3>
+                    <div class="space-y-4">
+
+                    <!-- Email -->
+                    <a href="mailto:dev.wrodrigues@proton.me" class="flex items-center space-x-4 hover:bg-gray-800/50 p-2 rounded-lg transition-colors duration-300">
+                        <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                        </svg>
+                        </div>
+                        <div>
+                        <div class="font-semibold text-white">Email</div>
+                        <div class="text-gray-400">dev.wrodrigues@proton.me</div>
+                        </div>
+                    </a>
+
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/5579991353409" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-4 hover:bg-gray-800/50 p-2 rounded-lg transition-colors duration-300">
+                        <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 32 32">
+                            <path d="M16.005 3.003c-7.168 0-13 5.832-13 13 0 2.289.599 4.544 1.736 6.519L3 29l6.672-1.748c1.889 1.027 4.017 1.573 6.333 1.573 7.168 0 13-5.832 13-13s-5.832-13-13-13zM16 26.745c-1.976 0-3.894-.53-5.558-1.532l-.398-.237-3.955 1.035 1.056-3.856-.259-.398A10.881 10.881 0 015 16.003c0-6.065 4.935-11 11-11s11 4.935 11 11-4.935 11-11 11zm5.987-8.467c-.329-.165-1.946-.96-2.247-1.067-.3-.11-.519-.165-.737.165s-.848 1.067-1.04 1.29c-.19.219-.383.247-.712.082s-1.389-.511-2.644-1.63c-.978-.873-1.637-1.948-1.831-2.277-.19-.329-.02-.507.145-.672.149-.149.33-.386.495-.579.165-.193.22-.33.33-.548.11-.22.055-.412-.027-.578-.082-.165-.737-1.779-1.01-2.443-.265-.637-.534-.552-.737-.552h-.63c-.22 0-.578.083-.88.412s-1.153 1.126-1.153 2.748 1.18 3.188 1.345 3.41c.165.219 2.327 3.554 5.635 4.984.788.34 1.402.543 1.881.694.79.251 1.508.216 2.077.131.634-.094 1.946-.794 2.221-1.562.273-.768.273-1.425.191-1.562-.082-.138-.3-.22-.63-.384z"/>
+                        </svg>
+                        </div>
+                        <div>
+                        <div class="font-semibold text-white">WhatsApp</div>
+                        <div class="text-gray-400">(79) 99135-3409</div>
+                        </div>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://instagram.com/wr.code" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-4 hover:bg-gray-800/50 p-2 rounded-lg transition-colors duration-300">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5zm0 1.5h8.5c2.179 0 3.75 1.571 3.75 3.75v8.5c0 2.179-1.571 3.75-3.75 3.75h-8.5c-2.179 0-3.75-1.571-3.75-3.75v-8.5c0-2.179 1.571-3.75 3.75-3.75zM17 6.75a1 1 0 100 2 1 1 0 000-2zM12 8a4 4 0 100 8 4 4 0 000-8zm0 1.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5z"/>
+                        </svg>
+                        </div>
+                        <div>
+                        <div class="font-semibold text-white">Instagram</div>
+                        <div class="text-gray-400">@wr.code</div>
+                        </div>
+                    </a>
+
+                    </div>
+                </div>
+                
+                <form id="contact-form" class="space-y-6">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-400 mb-2">Nome</label>
+                    <input type="text" id="name" name="name" required class="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg text-white">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-400 mb-2">Email</label>
+                    <input type="email" id="email" name="email" required class="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg text-white">
+                </div>
+                <div>
+                    <label for="project" class="block text-sm font-medium text-gray-400 mb-2">Tipo de Projeto</label>
+                    <select id="project" name="project" class="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg text-white">
+                    <option value="">Selecione uma opção</option>
+                    <option value="Landing Page">Landing Page</option>
+                    <option value="Blog">Blog</option>
+                    <option value="Portfólio">Portfólio</option>
+                    <option value="Site Institucional">Site Institucional</option>
+                    <option value="Outro">Outro</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-400 mb-2">Mensagem</label>
+                    <textarea id="message" name="message" rows="4" required class="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg text-white"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-gradient-to-r from-green-500 to-blue-600 text-white py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105">
+                    Enviar pelo WhatsApp
+                </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900/80 backdrop-blur-sm border-t border-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl overflow-hidden shadow-lg">
+                            <img src="fundo/logo.png" alt="Logo Wilke Rodrigues" class="w-full h-full object-cover" />
+                        </div>
+                        <span class="text-2xl font-bold gradient-text">wr.code</span>
+                    </div>
+                    <p class="text-gray-400 mb-4 text-sm">
+                        Desenvolvedor frontend especializado em criar experiências digitais memoráveis.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://wa.me/5579991353409" target="_blank" rel="noopener noreferrer" title="WhatsApp" class="text-gray-400 hover:text-green-500 transition-colors duration-300">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+                        </a>
+                        <a href="https://instagram.com/wr.code" target="_blank" rel="noopener noreferrer" title="Instagram" class="text-gray-400 hover:text-pink-500 transition-colors duration-300">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.08 2.525c.636-.247 1.363-.416 2.427-.465C9.53 2.013 9.884 2 12.315 2zM12 0C9.58 0 9.22.01 8.05.059c-1.202.05-2.228.244-3.128.595a6.885 6.885 0 00-2.298 1.597A6.885 6.885 0 00.93 4.542c-.35.9-.546 1.926-.595 3.128C.28 8.86.27 9.22.27 11.693s.01 2.833.059 4.003c.05 1.202.244 2.228.595 3.128a6.885 6.885 0 001.597 2.298 6.885 6.885 0 002.298 1.597c.9.351 1.926.546 3.128.595C9.22 23.99 9.58 24 12 24s2.78-.01 3.95-.059c1.202-.05 2.228-.244 3.128-.595a6.885 6.885 0 002.298-1.597 6.885 6.885 0 001.597-2.298c.351-.9.546-1.926.595-3.128.049-1.17.059-1.52.059-4.003s-.01-2.833-.059-4.003c-.05-1.202-.244-2.228-.595-3.128a6.885 6.885 0 00-1.597-2.298A6.885 6.885 0 0019.46.93c-.9-.351-1.926-.546-3.128-.595C15.14.01 14.78 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.88 1.44 1.44 0 000-2.88z" clip-rule="evenodd" /></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Navegação</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition-colors duration-300">Início</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">Sobre</a></li>
+                        <li><a href="#projects" class="text-gray-400 hover:text-white transition-colors duration-300">Projetos</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors duration-300">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Serviços</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#projects" class="text-gray-400 hover:text-white transition-colors duration-300">Landing Pages</a></li>
+                        <li><a href="#projects" class="text-gray-400 hover:text-white transition-colors duration-300">Sites Institucionais</a></li>
+                        <li><a href="#projects" class="text-gray-400 hover:text-white transition-colors duration-300">Portfólios</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-8 border-t border-gray-800 pt-6 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500">
+                <p>&copy; 2025 Wilke Rodrigues. Todos os direitos reservados.</p>
+                <a href="politica-de-privacidade.html" class="mt-2 sm:mt-0 hover:text-gray-300 transition-colors duration-300">
+                    Política de Privacidade
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="project-modal" class="modal-overlay" onclick="closeModal()">
+        <div class="modal-content w-11/12 md:w-1/2 lg:w-1/3" onclick="event.stopPropagation()">
+            <div class="flex justify-between items-center mb-4">
+                <h3 id="modal-title" class="text-2xl font-bold gradient-title"></h3>
+                <button onclick="closeModal()" class="text-gray-400 hover:text-white text-3xl font-bold">&times;</button>
+            </div>
+            <div id="modal-image-placeholder" class="modal-image"></div>
+            <p id="modal-description" class="text-gray-400 my-4"></p>
+            <div class="flex flex-wrap gap-2 mb-4" id="modal-tags"></div>
+            <a id="modal-link" href="https://wa.me/5579991353409" target="_blank" rel="noopener noreferrer" class="inline-block w-full text-center bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 rounded-lg hover:shadow-lg transition-all duration-300">Solicitar Projeto</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
