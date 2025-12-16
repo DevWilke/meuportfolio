@@ -122,7 +122,6 @@ html, body {
 }
 
 /* Estilos do Modal */
-/* Estilos do Modal */
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -215,4 +214,15 @@ html, body {
     border-radius: 0.5rem;
     object-fit: cover;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
 }
